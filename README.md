@@ -25,8 +25,3 @@ Get characters from ASCII codes or the other way in Windows Console.
 :: get verbosed ascii codes of 'a', 'b', 'c'
 > ochar --ascii -v -i "abc"
 ```
-
-
-## license
-
-You have a Poké ball? That's enough!
