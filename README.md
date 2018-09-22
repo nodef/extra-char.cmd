@@ -24,3 +24,6 @@ Get characters from ASCII codes or the other way in Windows Console.
 :: get verbosed ascii codes of 'a', 'b', 'c'
 > echar --ascii -v -i "abc"
 ```
+
+
+[![Merferry](https://i.imgur.com/BjHhnuJ.jpg)](https://merferry.github.io)
