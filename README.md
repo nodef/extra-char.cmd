@@ -1,12 +1,11 @@
-# ochar
-
 Get characters from ASCII codes or the other way in Windows Console.
+> 1. Download [exe file](https://raw.githubusercontent.com/winp/extra-bel/master/ecd.cmd).
+> 2. Copy to `C:\Program_Files\Scripts`.
+> 3. Add `C:\Program_Files\Scripts` to `PATH` environment variable.
 
-
-## usage
 
 ```batch
-> ochar [--ascii|-a] [--verbose|-v] [--input|-i <input string>]
+> echar [--ascii|-a] [--verbose|-v] [--input|-i <input string>]
 
 :: [] -> optional argument
 :: <> -> argument value
@@ -14,14 +13,14 @@ Get characters from ASCII codes or the other way in Windows Console.
 
 ```batch
 :: get character of ESC (27)
-> echo 27|ochar
+> echo 27|echar
 
 :: get character of SOH (1)
-> ochar --input 1
+> echar --input 1
 
 :: get verbosed character of STX (2)
-> ochar --verbose -i 2
+> echar --verbose -i 2
 
 :: get verbosed ascii codes of 'a', 'b', 'c'
-> ochar --ascii -v -i "abc"
+> echar --ascii -v -i "abc"
 ```

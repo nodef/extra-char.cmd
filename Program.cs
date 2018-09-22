@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace cs_char {
+namespace App {
 	class Program {
 
 		/// <summary>
@@ -50,7 +50,7 @@ namespace cs_char {
 		}
 
 		/// <summary>
-		/// Get input options to ochar.
+		/// Get input options to echar.
 		/// </summary>
 		/// <returns>Input options.</returns>
 		private static oParams GetOpt(string[] args) {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace cs_char {
+namespace App {
 	class oParams {
 
 		// data
